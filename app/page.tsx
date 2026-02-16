@@ -15,20 +15,20 @@ export default function Home() {
 
         {/* External widget script */}
         <Script
-          src="https://pad-widget.chaingpt.dev/cgpt-widgets.umd.js"
+          src="https://pad-widget.chaingpt.org/cgpt-widgets.umd.js"
           strategy="afterInteractive"
           onLoad={() => {
             if ((window as any).Saleium) {
               (window as any).Saleium.mount({
                 container: "#pad-widget",
-                saleId: "55XAgh",
+                saleId: "lgxd4k",
                 theme: "dark",
-                accentColor: "#2804dc",
-                fontFamily: "",
-                projectInfoExpanded: true,
-                watermarkEnabled: true,
-                showTierBoost: true,
-                textColor: "#faf4f4",
+                accentColor: "#7C3AED",
+                fontFamily: "sans-serif",
+                projectInfoExpanded: false,
+                watermarkEnabled: false,
+                showTierBoost: false,
+                textColor: "#ffffff",
               });
             }
           }}
