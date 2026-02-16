@@ -11,11 +11,11 @@ export default function Home() {
         </h1>
 
         {/* Responsive outer container - widget size remains unchanged */}
-       <div id="pad-widget"></div>
+        <div id="pad-widget"></div>
 
         {/* External widget script */}
         <Script
-          src="https://pad-widget.chaingpt.dev/cgpt-widgets.umd.js"
+          src="http://localhost:5000/cgpt-widgets.umd.js"
           strategy="afterInteractive"
           onLoad={() => {
             if ((window as any).Saleium) {
@@ -23,12 +23,12 @@ export default function Home() {
                 container: "#pad-widget",
                 saleId: "55XAgh",
                 theme: "dark",
-                accentColor: "#e7eb0f",
-                fontFamily: "sans-serif",
+                accentColor: "#2804dc",
+                fontFamily: "",
                 projectInfoExpanded: true,
-                watermarkEnabled: false,
-                showTierBoost: false,
-                textColor: "#121212",
+                watermarkEnabled: true,
+                showTierBoost: true,
+                textColor: "#faf4f4",
               });
             }
           }}
