@@ -15,7 +15,7 @@ export default function Home() {
 
         {/* External widget script */}
         <Script
-          src="http://localhost:5000/cgpt-widgets.umd.js"
+          src="https://pad-widget.chaingpt.dev/cgpt-widgets.umd.js"
           strategy="afterInteractive"
           onLoad={() => {
             if ((window as any).Saleium) {
