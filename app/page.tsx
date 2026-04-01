@@ -21,7 +21,7 @@ export default function Home() {
             if ((window as any).Saleium) {
               (window as any).Saleium.mount({
                 container: "#pad-widget",
-                saleId: "e0k8oa",
+                saleId: "bztvdb",
                 theme: "dark",
                 accentColor: "#ffffff",
                 fontFamily: "sans-serif",
