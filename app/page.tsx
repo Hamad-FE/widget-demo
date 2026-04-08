@@ -23,12 +23,10 @@ export default function Home() {
                 container: "#pad-widget",
                 saleId: "bztvdb",
                 theme: "dark",
-                accentColor: "#ffffff",
                 fontFamily: "sans-serif",
                 projectInfoExpanded: true,
                 watermarkEnabled: true,
                 showTierBoost: true,
-                textColor: "#c20000",
               });
             }
           }}
